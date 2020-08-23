@@ -6,22 +6,20 @@ import { ButtonModule } from 'primeng/button';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { FormularioComponent } from './formulario/formulario.component';
-import { DatosUsuariosComponent } from './formulario/datos-usuarios/datos-usuarios.component';
-import { DatosVehiculosComponent } from './formulario/datos-vehiculos/datos-vehiculos.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 import { SystemComponent } from './system/system.component';
 import { MaterialModule } from './system/shared/material/material.module';
+import { LoginComponent } from './login/login.component';
+import { SharedModule } from './system/shared/shared.module';
+import { InputTextModule } from 'primeng/inputtext';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    FormularioComponent,
-    DatosUsuariosComponent,
-    DatosVehiculosComponent,
-    SystemComponent,
+    LoginComponent,
 
   ],
   imports: [
@@ -30,7 +28,11 @@ import { MaterialModule } from './system/shared/material/material.module';
     BrowserAnimationsModule,
     CardModule,
     ButtonModule,
-    MaterialModule
+    SharedModule,
+    MaterialModule,
+    InputTextModule
+
+
   ],
   providers: [],
   bootstrap: [AppComponent]

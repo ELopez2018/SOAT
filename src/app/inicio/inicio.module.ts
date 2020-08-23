@@ -7,6 +7,7 @@ import { CardModule } from 'primeng/card';
 import { ButtonModule } from 'primeng/button';
 import { HomeComponent } from './home/home.component';
 import { MaterialModule } from '../system/shared/material/material.module';
+import { InputTextModule } from 'primeng/inputtext';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,12 @@ import { MaterialModule } from '../system/shared/material/material.module';
     InicioRoutingModule,
     CardModule,
     ButtonModule,
-    MaterialModule
+    MaterialModule,
+    InputTextModule
+  ],
+
+  exports: [
+     ConsultarPlacaComponent
   ]
 
 })

@@ -1,14 +1,17 @@
 import { Routes, RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
-import { NopagefoundComponent } from './shared/nopagefound/nopagefound.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { SystemComponent } from './system.component';
 
 
 const routes: Routes = [
   {
     path: '',
-    component: NopagefoundComponent,
+    component: SystemComponent,
     children: [
-
+      { path: '', redirectTo: 'menuprincipal', pathMatch: 'full' },
+      {path: 'menuprincipal', component: DashboardComponent},
+      { path: '**', redirectTo: '', pathMatch: 'full' }
     ]
   }
 ];
