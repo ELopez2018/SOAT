@@ -1,9 +1,12 @@
 .box {
   top: 10%;
   width: 320px;
-  /* height: 560px; */
+  height: 220px;
   margin: 10% auto;
   /* box-shadow: 0 7px 18px rgba(0, 0, 0, .5); */
 border-radius: 30px;
 
+}
+#logo {
+  height: 50px;
 }

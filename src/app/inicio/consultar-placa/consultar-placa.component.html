@@ -1,16 +1,21 @@
-<div class="p-col-12 p-md-6 p-lg-3 box p-shadow-10 p-ai-center">
-  <p-card >
-    <p-header>
-      Cotize su SOAT
-    </p-header>
-    <span class="ui-float-label">
-      <input id="float-input"  class="p-inputtext-lg" type="text" size="30" pInputText>
-      <label for="float-input">PACA</label>
-    </span>
-    <p-footer>
-      <!-- <button label="Consultar" pButton type="button" class="p-button-raised p-button-rounded"></button> -->
-      <button mat-raised-button [color]="btnSave">Consultar</button>
-      <button mat-raised-button [color]="btnCancel">Cancelar</button>
-    </p-footer>
-  </p-card>
+<div id="main" class="p-d-flex p-jc-center p-as-center">
+  <div class="p-col-12 p-md-6 p-lg-3 box p-shadow-10 p-ai-center  p-as-center p-text-center p-flex-column ">
+    <!-- <p-card > -->
+      <div id="logo">
+
+      </div>
+      <p-header>
+        Cotize su SOAT
+      </p-header>
+      <span class="ui-float-label">
+        <input id="float-input"  class="p-inputtext-lg" type="text" size="30" pInputText placeholder="PLACA">
+        <!-- <label for="float-input">PACA</label> -->
+      </span>
+      <p-footer>
+        <!-- <button label="Consultar" pButton type="button" class="p-button-raised p-button-rounded"></button> -->
+        <button mat-raised-button [color]="btnSave">Consultar</button>
+      </p-footer>
+    <!-- </p-card> -->
+  </div>
 </div>
+

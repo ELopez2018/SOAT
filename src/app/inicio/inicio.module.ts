@@ -23,7 +23,6 @@ import { InputTextModule } from 'primeng/inputtext';
     MaterialModule,
     InputTextModule
   ],
-
   exports: [
      ConsultarPlacaComponent
   ]

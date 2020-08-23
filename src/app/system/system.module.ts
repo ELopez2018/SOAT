@@ -5,7 +5,7 @@ import { SharedModule } from './shared/shared.module';
 import { SystemRoutesModule } from './system.routing';
 import { MaterialModule } from './shared/material/material.module';
 import { HeaderComponent } from './shared/header/header.component';
-import { ConsultarPlacaComponent } from '../inicio/consultar-placa/consultar-placa.component';
+import { DatosVehiculoComponent } from './datos-vehiculo/datos-vehiculo.component';
 
 @NgModule({
   imports: [
@@ -14,6 +14,6 @@ import { ConsultarPlacaComponent } from '../inicio/consultar-placa/consultar-pla
     SystemRoutesModule,
     MaterialModule
   ],
-  declarations: [SystemComponent, HeaderComponent]
+  declarations: [SystemComponent, HeaderComponent, DatosVehiculoComponent]
 })
 export class SystemModule { }

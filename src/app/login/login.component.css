@@ -4,7 +4,7 @@
   /* margin: 10% auto; */
   border-radius: 30px;
   color: black;
-  background-image: url("src/assets/img/BackGround/Fondologin.jpg");
+  background-image: url("../../assets/img/BackGround/Fondologin.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -15,7 +15,7 @@
 }
 
 #main {
-  background-image: url("src/assets/img/BackGround/Fondo1.jpg");
+  background-image: url("../../assets/img/BackGround/Fondo1.jpg");
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
