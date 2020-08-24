@@ -6,14 +6,24 @@ import { SystemRoutesModule } from './system.routing';
 import { MaterialModule } from './shared/material/material.module';
 import { HeaderComponent } from './shared/header/header.component';
 import { DatosVehiculoComponent } from './datos-vehiculo/datos-vehiculo.component';
+import { PrimengComponentsModule } from './shared/primeng-components.module';
+import { ReactiveFormsModule } from '@angular/forms';
+import {MatFormFieldModule} from '@angular/material/form-field';
 
 @NgModule({
   imports: [
     CommonModule,
     SharedModule,
     SystemRoutesModule,
-    MaterialModule
+    MaterialModule,
+    PrimengComponentsModule,
+    ReactiveFormsModule
+
   ],
-  declarations: [SystemComponent, HeaderComponent, DatosVehiculoComponent]
+  declarations: [
+    SystemComponent,
+    HeaderComponent,
+    DatosVehiculoComponent
+  ]
 })
 export class SystemModule { }

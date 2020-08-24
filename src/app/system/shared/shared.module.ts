@@ -5,7 +5,7 @@ import { RouterModule } from '@angular/router';
 
 // Pipes
 import { NopagefoundComponent } from './nopagefound/nopagefound.component';
-import { PrimengComponentsModule } from './primeng-components.module';
+
 import { MaterialModule } from './material/material.module';
 
 
@@ -13,22 +13,15 @@ import { MaterialModule } from './material/material.module';
     imports: [
         RouterModule,
         CommonModule,
-        PrimengComponentsModule,
         MaterialModule,
     ],
     declarations: [
         NopagefoundComponent,
-        // HeaderComponent,
-        // SidebarComponent,
-        // BreadcrumbsComponent,
-        // NopagefoundComponent
+
     ],
     exports: [
         NopagefoundComponent,
-        // HeaderComponent,
-        // SidebarComponent,
-        // BreadcrumbsComponent,
-        // NopagefoundComponent
+
     ]
 })
 export class SharedModule { }

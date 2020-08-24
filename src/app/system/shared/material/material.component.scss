@@ -1,0 +1,26 @@
+
+
+.back-login {
+  background-color: #2a9fd8;
+  background-size: cover;
+  background-image: url('/assets/images/background-login.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.login-content {
+  margin: 60px;
+}
+
+.mat-card {
+  border-radius: 10px;
+}
+
+.mat-elevation-z4 {
+  box-shadow: none;
+}
+
+.login-margin-top {
+  margin-top: 50px;
+}

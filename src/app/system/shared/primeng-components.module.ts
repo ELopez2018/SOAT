@@ -1,13 +1,11 @@
-import { NgModule } from '@angular/core';
-import { InputTextModule } from 'primeng/inputtext';
-
+import { NgModule } from "@angular/core";
+import { InputTextModule } from "primeng/inputtext";
+import { CardModule } from "primeng/card";
+import { ButtonModule } from "primeng/button";
 
 @NgModule({
   declarations: [],
-  imports: [
-    InputTextModule
-  ],
-  exports: [InputTextModule]
-
+  imports: [InputTextModule,  CardModule, ButtonModule],
+  exports: [InputTextModule,  CardModule, ButtonModule],
 })
-export class PrimengComponentsModule { }
+export class PrimengComponentsModule {}
